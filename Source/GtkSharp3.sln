@@ -9,6 +9,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GtkSharp_Test1", "GtkSharp3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GtkSharp_Test2", "GtkSharp3\GtkSharp_Test2\GtkSharp_Test2.csproj", "{68E302D6-F112-4838-9C24-0931E83BDEB1}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GtkSharp_Test3", "GtkSharp3\GtkSharp_Test3\GtkSharp_Test3.vbproj", "{9E77BA00-648B-43B4-AEFE-5B0E6EF3285A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E77BA00-648B-43B4-AEFE-5B0E6EF3285A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E77BA00-648B-43B4-AEFE-5B0E6EF3285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E77BA00-648B-43B4-AEFE-5B0E6EF3285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E77BA00-648B-43B4-AEFE-5B0E6EF3285A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7951A3C8-440D-4486-946B-B5B93181C4A2} = {1CAC9253-0233-48B0-AA9F-F49FC32747E2}
 		{68E302D6-F112-4838-9C24-0931E83BDEB1} = {1CAC9253-0233-48B0-AA9F-F49FC32747E2}
+		{9E77BA00-648B-43B4-AEFE-5B0E6EF3285A} = {1CAC9253-0233-48B0-AA9F-F49FC32747E2}
 	EndGlobalSection
 EndGlobal
