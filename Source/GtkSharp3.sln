@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{1CAC9253-0233-48B0-AA9F-F49FC32747E2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GtkSharp_Test1", "GtkSharp3\GtkSharp_Test1\GtkSharp_Test1.vbproj", "{7951A3C8-440D-4486-946B-B5B93181C4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GtkSharp_Test2", "GtkSharp3\GtkSharp_Test2\GtkSharp_Test2.csproj", "{68E302D6-F112-4838-9C24-0931E83BDEB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7951A3C8-440D-4486-946B-B5B93181C4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7951A3C8-440D-4486-946B-B5B93181C4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7951A3C8-440D-4486-946B-B5B93181C4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7951A3C8-440D-4486-946B-B5B93181C4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E302D6-F112-4838-9C24-0931E83BDEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7951A3C8-440D-4486-946B-B5B93181C4A2} = {1CAC9253-0233-48B0-AA9F-F49FC32747E2}
+		{68E302D6-F112-4838-9C24-0931E83BDEB1} = {1CAC9253-0233-48B0-AA9F-F49FC32747E2}
+	EndGlobalSection
+EndGlobal
