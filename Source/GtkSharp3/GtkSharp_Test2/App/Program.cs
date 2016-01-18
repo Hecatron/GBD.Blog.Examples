@@ -3,11 +3,10 @@ using Gtk;
 
 namespace GtkSharp_Test2.App
 {
+    /// <summary> A program. </summary>
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        /// <summary> The main entry point for the application. </summary>
         [STAThread]
         static void Main()
         {
