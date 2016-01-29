@@ -1,0 +1,55 @@
+/*Nautilus Desktop Fix*/
+
+/* Fixes issue with Nautilus drawing the .background image inside the view after closing a tab */
+NautilusWindow NautilusView,
+NautilusWindow NautilusView .view,
+NemoWindow NemoIconView,
+NemoWindow NemoIconView .view {
+	background-color: @theme_base_color;
+}
+
+NautilusWindow NautilusView:backdrop,
+NautilusWindow NautilusView .view:backdrop,
+NemoWindow NemoIconView:backdrop,
+NemoWindow NemoIconView .view:backdrop {
+	background-color: shade(@theme_base_color, 0.85);
+}
+
+/* Fixes issue with Nautilus drawing the above view color on the desktop */
+NautilusDesktopWindow NautilusView,
+NautilusDesktopWindow NautilusView .view,
+NemoDesktopWindow NemoDesktopIconView,
+NemoDesktopWindow NemoDesktopIconView .view {
+	background-color: transparent;
+}
+
+NautilusDesktopWindow NautilusView:backdrop,
+NautilusDesktopWindow NautilusView .view:backdrop,
+NemoDesktopWindow NemoDesktopIconView:backdrop,
+NemoDesktopWindow NemoDesktopIconView .view:backdrop {
+	background-color: transparent;
+}
+
+/* Fixes issue with Nautilus drawing the .background image on the desktop */
+NautilusDesktopWindow.background,
+NemoDesktopWindow.background {
+	background-image: none;
+	background-color: @theme_bg_color;
+}
+
+
+NautilusDesktopWindow.background:backdrop,
+NemoDesktopWindow.background:backdrop {
+	background-image: none;
+	background-color: shade(@theme_bg_color,0.85);
+}
+
+/***   ***/
+
+
+NautilusToolbar.titlebar.header-bar GtkBox.linked.horizontal.raised .button.image-button{
+padding: 4px; }
+
+NemoToolbar .primary-toolbar.toolbar GtkBox.linked.horizontal.raised GtkButton.button.image-button {
+padding: 4px; }
+
