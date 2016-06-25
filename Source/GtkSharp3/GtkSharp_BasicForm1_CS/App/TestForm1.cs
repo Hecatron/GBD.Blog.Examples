@@ -1,7 +1,7 @@
 ﻿using System;
 using Gtk;
 
-namespace GtkSharp_Test2.App
+namespace GtkSharp_BasicForm1_CS.App
 {
 
     /// <summary> Example Test Form for GTKSharp and Glade. </summary>
