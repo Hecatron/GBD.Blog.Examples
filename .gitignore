@@ -4,6 +4,9 @@
 #
 #/todo.md
 
+# Scons db files
+.sconsign.dblite
+
 # User-specific files
 *.suo
 *.user

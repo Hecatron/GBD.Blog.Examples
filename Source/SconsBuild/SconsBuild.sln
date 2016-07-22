@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{C64FE0DF-210F-431F-B395-C31B6F26D120}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{CF1B9544-0986-42A0-AA11-2BD8A9DC313D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SConsBuild", "vs\SConsBuild\SConsBuild.pyproj", "{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello1", "vs\Hello1\Hello1.vcxproj", "{07661C33-FFA6-450E-8EC0-437B9272A83D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}.Release|x64.ActiveCfg = Release|Any CPU
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Debug|x64.ActiveCfg = Debug|x64
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Debug|x64.Build.0 = Debug|x64
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Debug|x86.ActiveCfg = Debug|Win32
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Debug|x86.Build.0 = Debug|Win32
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Release|x64.ActiveCfg = Release|x64
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Release|x64.Build.0 = Release|x64
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Release|x86.ActiveCfg = Release|Win32
+		{07661C33-FFA6-450E-8EC0-437B9272A83D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8ADE7B0-55B8-4CC3-A0EF-BEC6AA0D81EB} = {C64FE0DF-210F-431F-B395-C31B6F26D120}
+		{07661C33-FFA6-450E-8EC0-437B9272A83D} = {CF1B9544-0986-42A0-AA11-2BD8A9DC313D}
+	EndGlobalSection
+EndGlobal
