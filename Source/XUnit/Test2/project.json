@@ -3,7 +3,10 @@
   "testRunner": "xunit",
 
   "buildOptions": {
-    "define": [ "LIBLOG_PORTABLE", "LIBLOG_PUBLIC" ]
+    "define": [ "LIBLOG_PORTABLE", "LIBLOG_PUBLIC" ],
+    "copyToOutput": {
+      "include": [ "xunit.runner.json" ]
+    }
   },
 
   "dependencies": {
@@ -14,8 +17,7 @@
     "Serilog.Sinks.Literate": "2.0.0",
     "Serilog.Sinks.Observable": "2.0.1",
     "Serilog.Sinks.ColoredConsole": "2.0.0",
-    "System.Reactive": "3.1.1",
-    "System.Reflection.TypeExtensions": "4.3.0"
+    "System.Reactive": "3.1.1"
   },
 
   "frameworks": {

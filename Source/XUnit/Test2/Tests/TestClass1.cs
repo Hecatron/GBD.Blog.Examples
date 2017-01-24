@@ -23,7 +23,10 @@ namespace Test2.Tests {
 
             // This uses LibLog which is independent of the Logging framework
             // Typically this would be used in the library we're testing
-            Logger.Info("LibLog Info Test");
+            Logger.Warn("LibLog Info Test");
+
+            // Use serilog's structured data output via liblog
+            Logger.WarnFormat("Structured {data} message", "some data");
 
             // Example of writing directly to Serilog which normally shouldn't be needed
             Serilog.Log.Logger.Warning("Serilog Warning Test");

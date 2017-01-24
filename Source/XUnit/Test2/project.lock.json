@@ -8185,7 +8185,6 @@
       "Serilog.Sinks.Literate >= 2.0.0",
       "Serilog.Sinks.Observable >= 2.0.1",
       "System.Reactive >= 3.1.1",
-      "System.Reflection.TypeExtensions >= 4.3.0",
       "dotnet-test-xunit >= 2.2.0-preview2-build1029",
       "xunit >= 2.2.0-beta5-build3474"
     ],

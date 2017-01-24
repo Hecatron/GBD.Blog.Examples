@@ -23,6 +23,9 @@ namespace Test2.Tests {
             // Typically this would be used in the library we're testing
             Logger.Warn("LibLog Warning Test2");
 
+            // Use serilog's structured data output via liblog
+            Logger.WarnFormat("Structured {data} message", "some data");
+
             // Example of writing directly to Serilog which normally shouldn't be needed
             Serilog.Log.Logger.Warning("Serilog Warning Test2");
 
